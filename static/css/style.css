@@ -1173,3 +1173,23 @@ body {
         min-width: 600px;
     }
 }
+
+/* Navigation logo fix */
+.landing-nav .logo-img,
+.navbar .logo-img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    object-position: left center;
+    max-width: 120px; /* Crops blank space */
+    margin-right: 12px; /* Adds proper spacing */
+}
+
+/* Footer logo fix */
+.footer-logo {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    object-position: left center;
+    max-width: 120px;
+}
